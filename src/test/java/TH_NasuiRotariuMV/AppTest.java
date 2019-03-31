@@ -87,16 +87,16 @@ public class AppTest {
         assert (student.getNume().equals( service.findStudent(ID).getNume()));
     }
 
-//    @Test
-//    public void addSameStudentTwiceTest() {
-//        Student student = new Student(ID, "Mirela", 934, "mirela@scs.ubbcluj.ro");
-//        Student student1 = service.addStudent(student);
-//        assert (student.getNume().equals( service.findStudent(ID).getNume()));
-//
-//        Student student2 = new Student(ID, "Mirela", 934, "mirela@scs.ubbcluj.ro");
-//        service.addStudent(student2);
-//        assert (student2.getNume().equals( service.findStudent(ID).getNume()));
-//    }
+    @Test
+    public void addSameStudentTwiceTest() {
+        Student student = new Student(ID, "Mirela", 934, "mirela@scs.ubbcluj.ro");
+        Student student1 = service.addStudent(student);
+        assert (student.getNume().equals( service.findStudent(ID).getNume()));
+
+        Student student2 = new Student(ID, "Mirela", 934, "mirela@scs.ubbcluj.ro");
+        service.addStudent(student2);
+        assert (student2.getNume().equals( service.findStudent(ID).getNume()));
+    }
 
 //    @After
 //    public void tearDown(){

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="986f176d-194a-439a-8bba-930605c70b7b" name="Default Changelist" comment="" />
+    <list default="true" id="986f176d-194a-439a-8bba-930605c70b7b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/TH_NasuiRotariuMV/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TH_NasuiRotariuMV/AppTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TH_NasuiRotariuMV/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="29" />
+            <state relative-caret-position="101">
+              <caret line="90" column="43" lean-forward="true" selection-start-line="90" selection-start-column="43" selection-end-line="90" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -207,7 +209,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554036504621" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554049369683" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
@@ -316,7 +318,7 @@
       <option name="presentableId" value="Default" />
       <updated>1554018176782</updated>
       <workItem from="1554018183249" duration="165000" />
-      <workItem from="1554018388004" duration="6294000" />
+      <workItem from="1554018388004" duration="7753000" />
     </task>
     <task id="LOCAL-00001" summary="add junit + fixed imports">
       <created>1554033665835</created>
@@ -361,7 +363,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6459000" />
+    <option name="totallyTimeSpent" value="7918000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -686,8 +688,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TH_NasuiRotariuMV/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="29" />
+        <state relative-caret-position="101">
+          <caret line="90" column="43" lean-forward="true" selection-start-line="90" selection-start-column="43" selection-end-line="90" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
