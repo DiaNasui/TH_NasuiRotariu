@@ -4,7 +4,6 @@ import TH_NasuiRotariuMV.domain.Tema;
 import TH_NasuiRotariuMV.repository.TemaXMLRepo;
 import TH_NasuiRotariuMV.service.Service;
 import TH_NasuiRotariuMV.validation.TemaValidator;
-import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -39,9 +38,9 @@ public class TestCaseAddAssignment {
         assert (tema.getID() == service.findTema(ID).getID());
     }
 
-    @After
-    public void tearDown() {
-        service.deleteTema(ID);
-    }
+//    @After
+//    public void tearDown() {
+//        service.deleteTema(ID);
+//    }
 
 }

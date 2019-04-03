@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="986f176d-194a-439a-8bba-930605c70b7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TH_NasuiRotariuMV/TestCaseAddAssignment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TH_NasuiRotariuMV/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TH_NasuiRotariuMV/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TH_NasuiRotariuMV/TestCaseAddAssignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TH_NasuiRotariuMV/TestCaseAddAssignment.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -62,7 +60,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TH_NasuiRotariuMV/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1547">
+            <state relative-caret-position="215">
               <caret line="91" column="82" selection-start-line="91" selection-start-column="82" selection-end-line="91" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -74,12 +72,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TH_NasuiRotariuMV/TestCaseAddAssignment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-115">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="412">
+              <caret line="43" column="7" lean-forward="true" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1040#1041#0" expanded="true" />
-                <element signature="e#1078#1079#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -235,7 +231,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554276847533" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554277013946" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
@@ -362,7 +358,7 @@
       <workItem from="1554018183249" duration="165000" />
       <workItem from="1554018388004" duration="8521000" />
       <workItem from="1554272767601" duration="25000" />
-      <workItem from="1554273188856" duration="1139000" />
+      <workItem from="1554273188856" duration="1742000" />
     </task>
     <task id="LOCAL-00001" summary="add junit + fixed imports">
       <created>1554033665835</created>
@@ -375,12 +371,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest - 2019.03.31 at 14h 51m 34s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_addEmptyId - 2019.03.31 at 14h 52m 41s.xml">
-      <configuration name="AppTest.addEmptyId" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AppTest_simpleAddTest - 2019.03.31 at 14h 52m 48s.xml">
       <configuration name="AppTest.simpleAddTest" configurationId="JUnit" />
     </history-entry>
@@ -405,9 +395,15 @@
     <history-entry file="AppTest - 2019.03.31 at 19h 30m 55s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AppTest - 2019.04.03 at 10h 33m 59s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCaseAddAssignment - 2019.04.03 at 10h 34m 09s.xml">
+      <configuration name="TestCaseAddAssignment" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9850000" />
+    <option name="totallyTimeSpent" value="10453000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -677,16 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TH_NasuiRotariuMV/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1547">
-          <caret line="91" column="82" selection-start-line="91" selection-start-column="82" selection-end-line="91" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TH_NasuiRotariuMV/validation/StudentValidator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -704,14 +690,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TH_NasuiRotariuMV/TestCaseAddAssignment.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TH_NasuiRotariuMV/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="215">
+          <caret line="91" column="82" selection-start-line="91" selection-start-column="82" selection-end-line="91" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1040#1041#0" expanded="true" />
-            <element signature="e#1078#1079#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TH_NasuiRotariuMV/TestCaseAddAssignment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="43" column="7" lean-forward="true" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
