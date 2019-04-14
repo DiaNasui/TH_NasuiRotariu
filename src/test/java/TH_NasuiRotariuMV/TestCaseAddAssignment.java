@@ -38,6 +38,35 @@ public class TestCaseAddAssignment {
         assert (tema.getID() == service.findTema(ID).getID());
     }
 
+    @Test
+    public void addEmptyDescription() {
+        Tema tema = new Tema(ID, "", 12, 3);
+        service.addTema(tema);
+        assert (tema.getID() == service.findTema(ID).getID());
+    }
+
+    @Test
+    public void addInvalidDeadline() {
+        Tema tema = new Tema(ID, "Aduga 2 test case-uri", 0, 13);
+        service.addTema(tema);
+        assert (tema.getID() == service.findTema(ID).getID());
+    }
+    @Test
+    public void addInvalidReceivedDate() {
+        Tema tema = new Tema(ID, "Aduga 2 test case-uri", 5, 15);
+        service.addTema(tema);
+        assert (tema.getID() == service.findTema(ID).getID());
+    }
+
+
+    @Test
+    public void addNullEntity() {
+        Tema tema = null;
+        service.addTema(tema);
+        assert (tema.getID() == service.findTema(ID).getID());
+    }
+
+
 //    @After
 //    public void tearDown() {
 //        service.deleteTema(ID);
