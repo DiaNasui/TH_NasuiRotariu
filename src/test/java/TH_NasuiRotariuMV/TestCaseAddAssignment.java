@@ -13,7 +13,7 @@ public class TestCaseAddAssignment {
 
     private Service service;
     private TemaXMLRepo repoXml;
-    private final static String ID = "123";
+    private final static String ID = "1234";
 
     @Before
     public void setup() {
