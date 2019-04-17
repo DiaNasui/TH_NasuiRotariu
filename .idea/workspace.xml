@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="986f176d-194a-439a-8bba-930605c70b7b" name="Default Changelist" comment="" />
+    <list default="true" id="986f176d-194a-439a-8bba-930605c70b7b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/TH_NasuiRotariuMV/BigBangIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,39 +20,42 @@
     <session id="919693376">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.27" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="104" />
+          <entry key="java" value="586" />
           <entry key="txt" value="25" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="104" />
+          <entry key="JAVA" value="586" />
           <entry key="PLAIN_TEXT" value="25" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="52" />
-          <entry key="txt" value="2" />
+          <entry key="java" value="59" />
+          <entry key="txt" value="3" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="52" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="JAVA" value="59" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -59,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TH_NasuiRotariuMV/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1462">
-              <caret line="91" column="82" selection-start-line="91" selection-start-column="82" selection-end-line="91" selection-end-column="82" />
+            <state relative-caret-position="381">
+              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,10 +75,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TH_NasuiRotariuMV/BigBangIntegrationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="457">
+              <caret line="74" column="25" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TH_NasuiRotariuMV/TestCaseAddAssignment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1054">
-              <caret line="62" column="29" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="29" />
+            <state relative-caret-position="341">
+              <caret line="31" column="5" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,6 +103,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -116,6 +135,8 @@
         <option value="$PROJECT_DIR$/src/main/java/TH_NasuiRotariuMV/app/MainApplication.java" />
         <option value="$PROJECT_DIR$/src/test/java/TH_NasuiRotariuMV/AppTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/TH_NasuiRotariuMV/TestCaseAddAssignment.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TH_NasuiRotariuMV/BigBangIntegrationTestTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TH_NasuiRotariuMV/BigBangIntegrationTest.java" />
       </list>
     </option>
   </component>
@@ -209,12 +230,20 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555333763638" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555487850164" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="TH_NasuiRotariuMV" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\40770\Desktop\University-Sem VI\TH_NasuiRotariu" />
       <recent name="C:\Users\40770\Desktop\University-Sem VI\TH_NasuiRotariu\src\main\java\TH_NasuiRotariuMV" />
@@ -232,20 +261,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestCaseAddAssignment">
-    <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TH_NasuiRotariuMV.app.MainApplication" />
-      <module name="TH_NasuiRotariu" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TH_NasuiRotariuMV.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.BigBangIntegrationTest">
     <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TH_NasuiRotariu" />
       <extension name="coverage">
@@ -256,22 +272,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="TH_NasuiRotariuMV" />
       <option name="MAIN_CLASS_NAME" value="TH_NasuiRotariuMV.AppTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest.addEmptyId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TH_NasuiRotariu" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TH_NasuiRotariuMV.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TH_NasuiRotariuMV" />
-      <option name="MAIN_CLASS_NAME" value="TH_NasuiRotariuMV.AppTest" />
-      <option name="METHOD_NAME" value="addEmptyId" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -292,6 +292,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BigBangIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TH_NasuiRotariu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TH_NasuiRotariuMV.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TH_NasuiRotariuMV" />
+      <option name="MAIN_CLASS_NAME" value="TH_NasuiRotariuMV.BigBangIntegrationTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BigBangIntegrationTest.simpleAddTestStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TH_NasuiRotariu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TH_NasuiRotariuMV.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TH_NasuiRotariuMV" />
+      <option name="MAIN_CLASS_NAME" value="TH_NasuiRotariuMV.BigBangIntegrationTest" />
+      <option name="METHOD_NAME" value="simpleAddTestStudent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestCaseAddAssignment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TH_NasuiRotariu" />
       <extension name="coverage">
@@ -307,19 +337,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MainApplication" />
       <item itemvalue="JUnit.AppTest" />
-      <item itemvalue="JUnit.AppTest.addEmptyId" />
       <item itemvalue="JUnit.AppTest.simpleAddTest" />
       <item itemvalue="JUnit.TestCaseAddAssignment" />
+      <item itemvalue="JUnit.BigBangIntegrationTest.simpleAddTestStudent" />
+      <item itemvalue="JUnit.BigBangIntegrationTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BigBangIntegrationTest" />
+        <item itemvalue="JUnit.BigBangIntegrationTest.simpleAddTestStudent" />
         <item itemvalue="JUnit.TestCaseAddAssignment" />
         <item itemvalue="JUnit.AppTest" />
         <item itemvalue="JUnit.AppTest.simpleAddTest" />
-        <item itemvalue="JUnit.AppTest.addEmptyId" />
-        <item itemvalue="Application.MainApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -337,7 +367,8 @@
       <workItem from="1554018388004" duration="8521000" />
       <workItem from="1554272767601" duration="25000" />
       <workItem from="1554273188856" duration="2219000" />
-      <workItem from="1555233244723" duration="3824000" />
+      <workItem from="1555233244723" duration="5434000" />
+      <workItem from="1555481716247" duration="4801000" />
     </task>
     <task id="LOCAL-00001" summary="add junit + fixed imports">
       <created>1554033665835</created>
@@ -350,15 +381,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest - 2019.03.31 at 14h 53m 48s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_simpleAddTest - 2019.03.31 at 14h 54m 06s.xml">
-      <configuration name="AppTest.simpleAddTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_simpleAddTest - 2019.03.31 at 14h 55m 12s.xml">
-      <configuration name="AppTest.simpleAddTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AppTest - 2019.03.31 at 14h 57m 20s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
@@ -380,15 +402,24 @@
     <history-entry file="TestCaseAddAssignment - 2019.04.14 at 13h 45m 42s.xml">
       <configuration name="TestCaseAddAssignment" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestCaseAddAssignment - 2019.04.15 at 16h 08m 45s.xml">
+      <configuration name="TestCaseAddAssignment" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCaseAddAssignment - 2019.04.15 at 16h 09m 27s.xml">
+      <configuration name="TestCaseAddAssignment" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BigBangIntegrationTest - 2019.04.17 at 10h 34m 39s.xml">
+      <configuration name="BigBangIntegrationTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14754000" />
+    <option name="totallyTimeSpent" value="21165000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23827533" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2375189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -397,7 +428,7 @@
       <window_info id="Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35573772" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35573772" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -613,13 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TH_NasuiRotariuMV/repository/NotaXMLRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TH_NasuiRotariuMV/repository/TemaXMLRepo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -635,16 +659,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TH_NasuiRotariuMV/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="91" column="82" selection-start-line="91" selection-start-column="82" selection-end-line="91" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -669,20 +683,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TH_NasuiRotariuMV/service/Service.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TH_NasuiRotariuMV/BigBangIntegrationTestTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="113" column="35" selection-start-line="113" selection-start-column="35" selection-end-line="113" selection-end-column="35" />
+        <state relative-caret-position="204">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TH_NasuiRotariuMV/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TH_NasuiRotariuMV/repository/NotaXMLRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#421#422#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fisiere/Note.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TH_NasuiRotariuMV/TestCaseAddAssignment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="62" column="29" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="29" />
+        <state relative-caret-position="341">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TH_NasuiRotariuMV/service/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="45" column="206" selection-start-line="45" selection-start-column="206" selection-end-line="45" selection-end-column="206" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fisiere/Note.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TH_NasuiRotariuMV/BigBangIntegrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="74" column="25" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
